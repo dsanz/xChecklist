@@ -15,5 +15,5 @@ To foster collaboration and separation of concerns, checklists are organized as 
           must/        → items here must be considered to minimally include xcutting feature from a functional perspective  
              item-A.md → checklist item (or group of them). Use item name as filename
              item-B.md → checklist item (or group of them). Use item name as filename
-          should/      → items here have to be considered to decently cover the xcutting feature from a functional perspective (same structure as must/)             
+          should/      → items here have to be considered to appropriately cover the xcutting feature from a functional perspective (same structure as must/)             
        technical/      → items targeted to feature implementation (same structure as functional/)
