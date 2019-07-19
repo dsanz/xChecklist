@@ -8,17 +8,12 @@ This is work in progress, so expect some changes in the structure.
 
 To foster collaboration and separation of concerns, checklists are organized as follows:
 
-    xcutting/        → a top-level folder for each cross cutting feature 
-       about.md      → description of the xcutting feature. Scope, what it covers and what not. Owner team (if any)
-       version.txt   → current version of this checklist    
-       functional/   → items targeted to functional feature analysis    
-          must.md    → items here must be considered to minimally include xcutting feature from a functional perspective  
-          should.md  → items here have to be considered to decently cover the xcutting feature from a functional perspective      
-          could.md   → items here should be considered to fully care about the xcutting feature from a functional perspective      
-       technical/    → items targeted to feature implementation    
-          must.md    → technical equivalent to functional/must.md      
-          should.md  → technical equivalent to functional/should.md      
-          could.md   → technical equivalent to functional/could.md  
-  
-  
-
+    xcutting/          → a top-level folder for each cross cutting feature 
+       about.md        → description of the xcutting feature. Scope, what it covers and what not. Owner team (if any)
+       version.txt     → current version of this checklist    
+       functional/     → items targeted to functional feature analysis    
+          must/        → items here must be considered to minimally include xcutting feature from a functional perspective  
+             item-A.md → checklist item (or group of them). Use item name as filename
+             item-B.md → checklist item (or group of them). Use item name as filename
+          should/      → items here have to be considered to decently cover the xcutting feature from a functional perspective (same structure as must/)             
+       technical/      → items targeted to feature implementation (same structure as functional/)
