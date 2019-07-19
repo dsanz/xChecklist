@@ -8,7 +8,8 @@ This is work in progress, so expect some changes in the structure.
 
 To foster collaboration and separation of concerns, checklists are organized as follows:
 
-    xcutting/        → a top-level folder for each cross cutting feature  
+    xcutting/        → a top-level folder for each cross cutting feature 
+       about.md      → description of the xcutting feature. Scope, what it covers and what not. Owner team (if any)
        version.txt   → current version of this checklist    
        functional/   → items targeted to functional feature analysis    
           must.md    → items here must be considered to minimally include xcutting feature from a functional perspective  
